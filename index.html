@@ -11,48 +11,29 @@
 <body>
     <header>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#"><img src="./public/images/main-logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex end-50 ">
-                        <li class="nav-item">
-                            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PRODUCTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">WATCHS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SALE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BOLG</a>
-                        </li>
-                        <li class="nav-item">
-                            <select class="nav-link" href="#">
-                                <option value="">PAGES</option>
-                            </select>
-                        </li>
-                    </ul>
-                    <span class="navbar-text position-absolute end-0 pe-5">
-                        <i class="fa-solid fa-magnifying-glass pe-3"></i>
-                        <i class="fa-solid fa-user pe-3"></i>
-                        <i class="fa-solid fa-cart-shopping pe-3"></i>
-                    </span>
-                </div>
+        <nav class="d-flex justify-content-between align-items-center ">
+            <div>
+                <a class="ps-5 " href="#"><img src="./public/images/main-logo.png" alt=""></a>
+            </div>
+            <div class="d-flex">
+                <a class="text-decoration-none text-primary pe-4" aria-current="page" href="#">Home</a>
+                <a class="text-decoration-none text-black pe-4" href="#">SERVICES</a>
+                <a class="text-decoration-none text-black pe-4" href="#">PRODUCTS</a>
+                <a class="text-decoration-none text-black pe-4" href="#">WATCHS</a>
+                <a class="text-decoration-none text-black pe-4" href="#">SALE</a>
+                <a class="text-decoration-none text-black pe-4" href="#">BOLG</a>
+                <select class="border-0" href="#">
+                    <option value="">PAGES</option>
+                </select>
+            </div>
+            <div class="pe-4">
+                <i class="fa-solid fa-magnifying-glass pe-3"></i>
+                <i class="fa-solid fa-user pe-3"></i>
+                <i class="fa-solid fa-cart-shopping pe-3"></i>
             </div>
         </nav>
     </header>
+    
     <script src='./node_modules/bootstrap/dist/js/bootstrap.bundle.js'></script>
 </body>
 
