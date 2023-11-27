@@ -11856,5 +11856,115 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-size {
+  width: 100vw;
+  height: 80vh;
+}
+
+.img-carousel {
+  width: 50 vw;
+  height: 110%;
+}
+
+.carousel-text {
+  width: 50vw;
+  height: 80%;
+}
+.carousel-text .carousel-titre {
+  font-size: 500%;
+}
+.carousel-text button {
+  width: 30%;
+  height: 10%;
+}
+
+.section2 {
+  width: 90vw;
+}
+.section2 .card1sur4 {
+  width: 20%;
+  height: 20vh;
+}
+
+.section3 {
+  width: 90vw;
+  height: 70vh;
+}
+.section3 .child31 {
+  width: 100%;
+  height: 100%;
+}
+.section3 .child31 .parent14 {
+  width: 100%;
+  height: 95%;
+}
+.section3 .child31 .parent14 .child14 {
+  width: 23%;
+  height: 100%;
+}
+.section3 .child31 .parent14 .child14 img {
+  width: 100%;
+  height: 90%;
+}
+
+.section4 {
+  height: 90vh;
+}
+.section4 .child41 {
+  width: 50%;
+  height: 100%;
+}
+.section4 .child41 .child41-child {
+  width: 60%;
+}
+.section4 .child41 .child41-child h1, .section4 .child41 .child41-child .h1 {
+  font-size: 400%;
+}
+.section4 .child41 .child41-child button {
+  width: 40%;
+  height: 20%;
+}
+.section4 .child42 {
+  width: 50%;
+  height: 100%;
+}
+.section4 .child42 img {
+  width: 100%;
+  height: 95%;
+}
+
+.section5 .child5 {
+  width: 90%;
+  height: 70vh;
+}
+.section5 .child5 .child52 {
+  width: 100%;
+  height: 90%;
+}
+.section5 .child5 .child52 .child511 {
+  width: 32%;
+  height: 100%;
+}
+.section5 .child5 .child52 .child511 img {
+  width: 100%;
+  height: 80%;
+}
+
+.section6 {
+  height: 80vh;
+}
+.section6 .grand-icon {
+  font-size: 600%;
+}
+
+.section7 {
+  width: 90%;
+  height: 20vh;
+}
 
 /*# sourceMappingURL=app.css.map */
