@@ -11,7 +11,50 @@
 <body>
     <header>
         <!-- navbar -->
-        <nav class="d-flex justify-content-between align-items-center py-3">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./public/images/main-logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ul-center d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-none text-primary " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WATCHS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SALE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BOLG</a>
+                        </li>
+                        <li class="nav-item">
+                            <select class="border-0 nav-link" href="#">
+                                <option value="">PAGES</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <i class="fa-solid fa-magnifying-glass pe-3"></i>
+                        <i class="fa-solid fa-user pe-3"></i>
+                        <i class="fa-solid fa-cart-shopping pe-3"></i>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar par autre méthod -->
+        <!-- <nav class="d-flex justify-content-between align-items-center py-3">
             <div>
                 <a class="px-5" href="#"><img src="./public/images/main-logo.png" alt=""></a>
             </div>
@@ -31,12 +74,12 @@
                 <i class="fa-solid fa-user pe-3"></i>
                 <i class="fa-solid fa-cart-shopping pe-3"></i>
             </div>
-        </nav>
+        </nav> -->
     </header>
     <main>
         <!-- carousel:section1 -->
         <section>
-            <div id="carouselExampleIndicators" class="carousel slide bg-body-secondary">
+            <div id="carouselExampleIndicators" class="carousel slide bg-opacity-gray">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -47,9 +90,9 @@
                 </div>
                 <div class="carousel-inner ">
                     <div
-                        class="carousel-item active d-flex justify-content-center align-items-center justify-content-around carousel-size">
+                        class="carousel-item active  flex-column d-flex flex-lg-row justify-content-center align-items-center justify-content-around carousel-size">
                         <div class="carousel-text">
-                            <p class="carousel-titre pt-5">YOUR PRODUCT ARE GREAT.</p>
+                            <p class="carousel-titre pt-5 ">YOUR PRODUCT ARE GREAT.</p>
                             <button class="bg-black text-white">SHOP PRODUCT</button>
                         </div>
                         <img src="./public/images/banner-image.png" class="d-block img-carousel " alt="image">
@@ -69,7 +112,7 @@
         </section>
         <!-- section2 -->
         <section class="d-flex justify-content-center">
-            <div class="section2 d-flex justify-content-between py-5 ">
+            <div class="section2 d-flex flex-lg-row flex-column justify-content-lg-between align-items-center py-5 ">
                 <div class="d-flex flex-column justify-content-center card1sur4">
                     <div class="d-flex align-items-center ">
                         <i class="fa-solid fa-cart-shopping fs-5 pe-1" style="color: #05b4ff;"></i>
@@ -111,12 +154,12 @@
         <!-- section3 -->
         <section class="d-flex  justify-content-center pb-5">
             <div class=" section3 ">
-                <div class=" child31 d-flex flex-column ">
-                    <div class="d-flex justify-content-between align-items-center pb-2">
+                <div class=" child31 d-flex flex-column  ">
+                    <div class="child311 d-flex justify-content-between align-items-center pb-2">
                         <h2>MOBILE PRODUCTS</h2>
                         <h5><a href="" class="text-black pe-2">GO TO SHOP</a></h5>
                     </div>
-                    <div class="parent14 d-flex justify-content-between">
+                    <div class="parent14 d-flex justify-content-between flex-lg-row flex-column  pb-5">
                         <div class="child14">
                             <img src="./public/images/product-item1.jpg" alt="">
                             <div class="d-flex justify-content-between pt-3">
@@ -148,9 +191,9 @@
                     </div>
                 </div>
             </div>
-        </section><br><br><br><br><br>
+        </section> 
         <!-- section4 -->
-        <section class="section4 bg-secondary d-flex ">
+        <section class="section4 bg-opacity-gray d-flex flex-lg-row flex-column ">
             <div class="child41 d-flex flex-column justify-content-center align-items-end">
                 <div class="child41-child">
                     <p class="fs-2">10% off</p>
