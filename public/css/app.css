@@ -11963,8 +11963,12 @@ textarea.form-control-lg {
 }
 
 .section7 {
-  width: 90%;
+  width: 80%;
   height: 20vh;
+}
+
+.width-input {
+  width: 40%;
 }
 
 /*# sourceMappingURL=app.css.map */
