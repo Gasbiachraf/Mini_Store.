@@ -11963,12 +11963,26 @@ textarea.form-control-lg {
 }
 
 .section7 {
-  width: 80%;
+  width: 90%;
   height: 20vh;
 }
 
 .width-input {
   width: 40%;
+}
+
+footer .footer-child {
+  width: 90vw;
+}
+footer .footer-child .childf1 {
+  width: 25vw;
+}
+footer .footer-child a {
+  text-decoration: none;
+  color: black;
+}
+footer .footer-child2 .childf2 {
+  width: 90vw;
 }
 
 /*# sourceMappingURL=app.css.map */
